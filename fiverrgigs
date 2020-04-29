@@ -1,0 +1,29 @@
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Javascript open link without click</title> 
+        <style> 
+            .gfg { 
+                text-align:center; 
+                font-size:40px; 
+                font-weight:bold; 
+                color:green; 
+            } 
+        </style> 
+        <script> 
+            function myFunction() { 
+                window.open("https://www.fiverr.com/share/Vrz5Z5"); 
+                window.open("https://www.fiverr.com/share/qbxYjX"); 
+                window.open("https://www.fiverr.com/share/ae0V0a"); 
+                window.open("https://www.fiverr.com/share/lr747R"); 
+                window.open("https://www.fiverr.com/share/xrD9Dx"); 
+            } 
+        </script> 
+    </head> 
+    <body> 
+        <div class = "gfg" onmouseover = "myFunction()"> 
+                GeeksforGeeks 
+        </div> 
+    </body> 
+</html>    
